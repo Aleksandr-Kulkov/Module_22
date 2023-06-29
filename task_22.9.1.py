@@ -44,7 +44,7 @@ else:
         if left > right:
             return False
 
-        middle = (left + right) // 2  # находим середину
+        middle = (left + right) // 2
         if element == array[middle] and array[middle - 1] < element:
             return f"Индекс искомого элемента: {middle - 1}"
         elif element < array[middle] and array[middle - 1] < element:
